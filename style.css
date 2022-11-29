@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #000;
+  padding: 20px;
+  color: #fff;
+}
+
+.box {
+  display: flex;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: grey;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+}
+
+.input-box {
+  height: 100vh;
+  width: 20%;
+  padding: 20px;
+  background-color: #ccc;
+}
+
+.input-box h2,
+.note-box h2 {
+  margin-bottom: 10px;
+}
+
+.note-box {
+  width: 50%;
+  padding: 20px;
+  width: 100vh;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.notes li {
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 20px;
+  width: 100wh;
+}
+
+.notes li button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: grey;
+  border-radius: 5px;
+  color: #fff;
+  top: 0;
+  font-size: 16px;
+}
+
+.decor {
+  text-decoration: line-through;
+  order: -1;
+  color: grey;
+}
+
+.top {
+  order: 1;
+  color: red;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
